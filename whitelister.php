@@ -4,7 +4,7 @@
 $api_token = "";  // Replace with your API token
 $account_id = ""; // Replace with your Cloudflare account ID
 
-$correct_password = "hunter2"; //Obvisouly hunter2 is a secure password
+$correct_password = "hunter2"; //Obviously hunter2 is a secure password
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $entered_password = $_POST['password'] ?? '';
